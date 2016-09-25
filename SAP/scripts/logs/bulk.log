@@ -1,0 +1,18 @@
+bulk: 2016-09-25 01:16:32 INFO Starting Bulk Proxy
+bulk: 2016-09-25 01:16:32 INFO Listening on 127.0.0.1:1025
+bulk: 2016-09-25 01:16:32 INFO Forwarding to 127.0.0.1:25
+bulk: 2016-09-25 01:16:32 INFO Bulk matches will be logged to /tmp/bulk/quarantine/
+bulk: 2016-09-25 01:16:32 INFO Bulk using Processor SAP.processors.yara_nlp
+bulk: 2016-09-25 01:33:58 INFO Received a keyboard interrupt, stopping Bulk
+SAP: 2016-09-25 09:39:27 INFO Starting SAP Proxy
+SAP: 2016-09-25 09:39:27 INFO Listening on 127.0.0.1:1025
+SAP: 2016-09-25 09:39:27 INFO Forwarding to 127.0.0.1:25
+SAP: 2016-09-25 09:39:27 INFO SAP matches will be logged to /tmp/SAP/quarantine/
+SAP: 2016-09-25 09:39:27 INFO Emails that match a processor rule will be BLOCKED
+SAP: 2016-09-25 09:39:58 INFO Starting SAP Proxy
+SAP: 2016-09-25 09:39:58 INFO Listening on 127.0.0.1:1025
+SAP: 2016-09-25 09:39:58 INFO Forwarding to 127.0.0.1:25
+SAP: 2016-09-25 09:39:58 INFO SAP matches will be logged to /tmp/SAP/quarantine/
+SAP: 2016-09-25 09:39:58 INFO Emails that match a processor rule will be BLOCKED
+SAP: 2016-09-25 09:39:58 INFO SAP using Processor SAP.processors.yara_nlp
+SAP: 2016-09-25 13:05:50 INFO Received a keyboard interrupt, stopping S@P
